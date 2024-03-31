@@ -93,7 +93,7 @@ int ping(const char* host) {
         cout << "ttl = " << int(pIpe->Options.Ttl) << endl;
     }
     else {
-        cerr << "Error obtaining info from ping packet." << endl;
+        cerr << "Request timed out" << endl;
     }
 
     GlobalFree(pIpe);
@@ -114,7 +114,7 @@ std::string getIPFromHostname(const std::string& hostName) {
     struct in_addr** addrList;
 
     if ((he = gethostbyname(hostName.c_str())) == NULL) {
-        std::cout << "gethostbyname failed: " << WSAGetLastError() << std::endl;
+        std::cout << "Could not find IP address: " << WSAGetLastError() << std::endl;
         WSACleanup();
         return "";
     }
