@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IcmpPinger", "IcmpPinger\IcmpPinger.vcxproj", "{C2106DF3-8BCE-4D91-9739-0A5E18B83232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Debug|x64.ActiveCfg = Debug|x64
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Debug|x64.Build.0 = Debug|x64
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Debug|x86.ActiveCfg = Debug|Win32
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Debug|x86.Build.0 = Debug|Win32
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Release|x64.ActiveCfg = Release|x64
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Release|x64.Build.0 = Release|x64
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Release|x86.ActiveCfg = Release|Win32
+		{C2106DF3-8BCE-4D91-9739-0A5E18B83232}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {139A0BC7-50B3-4A5F-855B-43EE57D67F2B}
+	EndGlobalSection
+EndGlobal
